@@ -1,0 +1,36 @@
+
+.card-serie{
+    background-color: #04025A;
+    color: #ffffff;
+    max-width: 200px;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.poster-image {
+    border-radius: 5px;
+    background-image:url('./BadBoys\ Para\ Sempre.jpg');
+    background-repeat: no-repeat;
+    
+padding: 60px;
+
+}
+
+.span{
+    padding-top: 20%;
+    position: absolute;
+    left: 7.44%;
+    right: 9.77%;
+    top: 56.04%;
+    bottom: 0%;
+    font-family: Ubuntu, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    text-align:justify;
+    
+    color: #FFFFFF;
+    
+}

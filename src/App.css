@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap'); 
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+.App {
+  background-color: #390B0B;
+  min-height: 100vh;
+  --background-item-BadBoys: #04025A;
+  
+}
+
+
+
+.Logo {
+  
+  position: absolute;
+  width: 217px;
+  height: 86px;
+  left: 0px;
+  top: 0px;
+  background: linear-gradient(0deg, #BB6B6B, #FF00006B), linear-gradient(0deg, #FF0000, #FF0000), #FF0000;  
+  font-family: Ubuntu, sans-serif;
+  font-size: 28px;
+  line-height: 80px;
+  text-align: center;
+  letter-spacing: 0.165em;
+}
+
