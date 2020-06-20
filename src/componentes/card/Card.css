@@ -1,10 +1,11 @@
 .card-serie {
     background-color: #04025A;
     max-width: 200px;
-    max-height: 2000px;
+    max-height: 1100px;
     border-radius: 5px;
     margin-top: 20px;
     margin-left: 20px;
+    padding: 4px;
 }
 
 .poster-image {
@@ -35,6 +36,7 @@ color: #FFFFFF;}
     color: #FFFFFF;
 }
 .star{
+    padding-top: 20px;
     margin-left: 10px;
     color: #ffff00;
 

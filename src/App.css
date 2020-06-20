@@ -25,3 +25,18 @@
   letter-spacing: 0.165em;
 }
 
+.content{
+  display: flex;
+}
+
+.nav-link{
+  color: red;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: Ubuntu, sans-serif;
+  margin: 20px;
+  padding-left: 25%;
+
+  text-decoration: none;
+}
+
