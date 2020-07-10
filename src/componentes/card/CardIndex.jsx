@@ -1,22 +1,32 @@
 import React from 'react'
 
-export default function CardSerie() {
+export default function CardSerie({ serie }) {
+    const nota = serie.vote_average.toFixed(1)
+    const imgUrl = "https://image.tmdb.org/t/p/w200/"
+    const data = new Date(serie.first_air_date)
+    const data_lancamento = data.toLocaleDateString()
     return (
 
         <div className="card-serie">
-            <div class="material-icons watch-later">watch_later</div>
-            <div className="poster-image"> </div>
-        
+            <div className="material-icons watch-later">watch_later</div>
+            <div className="poster-image"
+                style={{ backgroundImage: `url(${imgUrl}${serie.poster_path})` }}
+                > 
+                </div>
+
             <div className="card-detail"> </div>
+
             <div className="texto-card">
-            <span>BadBoys Para sempre é um lançamento de 2020 que
-        conta a história de dois policiais parceiros que vivem o ... <a href="#"></a></span>
+                <h1 className="titulo-filme">{serie.name}</h1>
+                <div className="material-icons star"> grade
+                </div>
+                <span className="nota">{nota}</span>
+                </div>
+            
 
-            </div>
-            <div className="material-icons star"> grade </div> <span className="porcent">89%</span>
-
-           
+            <span className="data"> {data_lancamento} </span>
         </div>
+
 
 
     )

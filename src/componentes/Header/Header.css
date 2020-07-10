@@ -1,18 +1,35 @@
 
-.Header input{
-    margin-right: 20%;
-    border-radius: 0;
-    border-radius: 10px;
-    width: 400px;
-    height: 25px;
-    margin: 0 10px; 
-    margin-left: 50%;
+.Header {
+  display: flex;
+  padding: 5px;
+  background-color: black;
+  justify-content: space-between;
+
   }
 
-  .Header {
-    display: flex;
-    padding: 28px;
-    background-color: black;
-    justify-content: space-between;
+
+.entrada-texto{
+  background-color: #BB6B6B;
+    margin-left: 10px;
+    border-radius: 0;
+    border-radius: 15px;
+    width: 400px;
+    height: 30px;
+   
+    
+  }
+
+  .botao {
+    background: linear-gradient(0deg, #BB6B6B, #FF00006B), linear-gradient(0deg, #FF0000, #FF0000), #FF0000;
+    border: none;
+    border-radius: 15px;
+    height: 2rem;
+    width: 120px;
+    font-family: 'Short Stack', cursive;
+    text-transform: uppercase;
+    font-weight: bolder;
+    letter-spacing: 0.18rem;
+  }
   
-    }
+
+  
