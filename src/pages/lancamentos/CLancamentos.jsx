@@ -18,11 +18,14 @@ export default function Lancamentos() {
         }
     }
     return (
+        
         <div className="content">
             {series.map( (serie) => <CardSerie key ={serie.id} serie ={serie} /> )}
             
         </div>
     );
 
+    
+    
 }
 

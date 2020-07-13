@@ -35,7 +35,15 @@
   font-family: Ubuntu, sans-serif;
   margin: 20px;
   padding-left: 20%;
+  opacity: 40%;
 
   text-decoration: none;
 }
 
+.nav-link.active{
+  opacity: 1;
+  color: #FF0000;  
+  font-size: 25px;
+  font-weight: 900;
+  font-style: italic;
+}

@@ -17,7 +17,7 @@ export default function Header(props){
              name="search" 
              id = "search" 
              onChange = {e => setSearch (e.target.value)}></input>
-             <button className ="botao" type= "submit">procurar</button>
+             <button className ="botao" type= "submit">programar</button>
                    
              </form>
             
