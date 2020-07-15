@@ -19,6 +19,7 @@ export default function Busca(props) {
             const resposta = await axios.get(urlAPI)
             setSeries(resposta.data.results)
             console.log(props.location)
+
         } catch (erro) {
             console.log(erro)
         }

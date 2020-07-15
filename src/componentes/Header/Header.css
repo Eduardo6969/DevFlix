@@ -8,7 +8,7 @@
   }
 
 
-.entrada-texto{
+  .Header form input{
   background-color: #BB6B6B;
     margin-left: 10px;
     border-radius: 0;
@@ -19,7 +19,7 @@
     
   }
 
-  .botao {
+  .Header form button {
     background: linear-gradient(0deg, #BB6B6B, #FF00006B), linear-gradient(0deg, #FF0000, #FF0000), #FF0000;
     border: none;
     border-radius: 15px;
@@ -29,6 +29,7 @@
     text-transform: uppercase;
     font-weight: bolder;
     letter-spacing: 0.16rem;
+    cursor: pointer;
   }
   
 
